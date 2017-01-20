@@ -39,7 +39,6 @@
   }
 </style>
 <script>
-  import Utils from '../js/utils.js'
   import Methods from '../js/webrtc.js'
   export default {
     mounted() {
