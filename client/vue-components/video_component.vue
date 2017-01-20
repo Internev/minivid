@@ -36,7 +36,11 @@
         localStream:'',
         theRecorder: null,
         recordedChuck: [],
-        peerConnectionConfig: {'iceServers': [{'url': 'stun:stun.l.google.com:19305'}, {'url': 'stun:stun.services.mozilla.com'}]},
+        peerConnectionConfig: {'iceServers': [{
+          url: 'turn:numb.viagenie.ca',
+          credential: 'muazkh',
+          username: 'webrtc@live.com'
+         },{'url': 'stun:stun.l.google.com:19305'}, {'url': 'stun:stun.services.mozilla.com'}]},
       }
     },
 
